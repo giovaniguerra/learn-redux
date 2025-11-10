@@ -90,6 +90,17 @@
 - **FR-004**: System MUST [data requirement, e.g., "persist user preferences"]
 - **FR-005**: System MUST [behavior, e.g., "log all security events"]
 
+## Constitution Compliance *(mandatory)*
+
+Every spec MUST include a short section that states how the feature satisfies the project's constitution. At minimum address:
+
+- Code Quality: any typing/linting expectations and API boundary notes.
+- Tests: unit, integration, and contract tests to be delivered, and the acceptance criteria that tests verify.
+- UX: design tokens/components to use and accessibility checks for primary flows.
+- Performance: declared performance goals and how they will be measured.
+
+Failure to include this compliance section will cause the spec to be returned for revision.
+
 *Example of marking unclear requirements:*
 
 - **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]

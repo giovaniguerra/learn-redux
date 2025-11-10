@@ -31,7 +31,15 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+All plans MUST document how the feature satisfies the constitution. At minimum the plan must attest to the following gates (derived from the project's constitution):
+
+- Code Quality: confirm typecheck/lint requirements and identify any language gaps; include a short note on module boundaries and public APIs.
+- Testing Standards: list required unit/integration/contract tests and coverage targets for the feature (default core target: >=80% where applicable).
+- UX Consistency: for UI work, list design tokens/components used and accessibility considerations (WCAG AA checklist items for primary flows).
+- Performance Requirements: declare p95 latency, memory, and throughput goals where applicable; attach benchmark plans for critical paths.
+- Observability & Security: list logging/metrics expectations and note any handling of sensitive data.
+
+The plan MUST include explicit acceptance criteria that map to the gates above. If a gate cannot be satisfied, document a mitigation and an approver in the plan.
 
 ## Project Structure
 
