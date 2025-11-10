@@ -34,7 +34,7 @@
 
 1. No implementation details: The spec contains an **Assumptions** section that notes a preference for React Native + TypeScript. This is an explicit assumption for planning — the core spec remains focused on user value and offline-first behavior.
 
-2. Tests & Acceptance: The spec includes clear acceptance scenarios for P1–P3 and lists required test types in the "Constitution Compliance" section (unit, integration, contract tests). Example: "Create a user offline and then reconnecting results in the user appearing on the server within 60s".
+2. Tests & Acceptance: The spec includes clear acceptance scenarios for P1–P3 and lists required test types in the "Constitution Compliance" section (unit, integration, contract tests). Example: "Create a user offline and then reconnecting results in the user appearing on the server within 60s.".
 
 3. Success Criteria: Measurable outcomes are present (latency p95, sync window, test coverage expectations).
 
